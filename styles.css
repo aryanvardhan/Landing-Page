@@ -59,7 +59,7 @@
   font-size: 48px;
   color: #F9FAF8;
   font-weight: bolder;
-  font-family: "Arial" , serif;
+  font-family: "Arial" , sans-serif;
 }
 
 .text-description p {
@@ -128,4 +128,32 @@
   font-family: "Arial", sans-serif;
   color: #6D6D6D;
   margin: 10px;
+}
+
+/* Quote section */
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-container .text-container p {
+  font-size: 30px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Arial", sans-serif;
+  color: #1F2937;
+}
+
+.quote-container .text-container h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: "Arial", sans-serif;
+  align-self: flex-end;
 }
