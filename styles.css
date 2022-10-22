@@ -131,6 +131,7 @@
 }
 
 /* Quote section */
+
 .quote-container {
   background-color: #E5E7EB;
   display: flex;
@@ -156,4 +157,48 @@
   font-weight: bolder;
   font-family: "Arial", sans-serif;
   align-self: flex-end;
+}
+
+/* Footer section */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.footer .text {
+  margin: 30px 80px 30px 80px;
+}
+
+.footer .text h1 {
+  font-size: 24px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #F6F5F5;
+
+}
+
+.footer .text p {
+  color: #DFDFDF;
+}
+
+.footer .button {
+  margin: 0px 80px 0px 0px;
+  border: solid 2px #F6F5F5;
+  border-radius: 5px;
+}
+
+.footer .button p {
+  margin: 5px 25px 5px 25px;
+  color: #F6F5F5;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
 }
